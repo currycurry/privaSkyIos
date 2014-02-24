@@ -1,0 +1,39 @@
+TprivaSkyIosTest
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Info.plist privaSkyIosTest/privaSkyIosTest-Info.plist
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app
+t2
+s0
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Info.plist
+t2
+s0
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/PkgInfo
+t2
+s0
+
+NprivaSkyIosTest/privaSkyIosTest-Info.plist
+c00000000000000000000000000000000
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc53c23c1cbbab841^19e323c1cbbab841^---0#1#0#--18"Check dependencies36"55AB3698-B778-4D2F-A32B-8CE9D71C0117-
+
+CProcessInfoPlistFile /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Info.plist privaSkyIosTest/privaSkyIosTest-Info.plist
+s414895041.142291
+e414895041.159345
+r0
+xProcessInfoPlistFile
+x/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Info.plist
+xprivaSkyIosTest/privaSkyIosTest-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Process privaSkyIosTest/privaSkyIosTest-Info.plisted9e24c1cbbab841^ab5a2ac1cbbab841^-266"error: could not read data from '/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/privaSkyIosTest/privaSkyIosTest-Info.plist': The file “privaSkyIosTest-Info.plist” couldn’t be opened because there is no such file.1(21%IDEActivityLogMessage2@259"could not read data from '/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/privaSkyIosTest/privaSkyIosTest-Info.plist': The file “privaSkyIosTest-Info.plist” couldn’t be opened because there is no such file.81"Could not read data from '/Users/curry/Documents/openframeworks_releases/of_0.8.0414895041#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#24"Info.plist Utility Error--0#0#0#-19%DVTDocumentLocation4@153"file://localhost/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/privaSkyIosTest/privaSkyIosTest-Info.plist000000000080d041^880"ProcessInfoPlistFile build/Debug-iphonesimulator/privaSkyIosTest.app/Info.plist privaSkyIosTest/privaSkyIosTest-Info.plist    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility privaSkyIosTest/privaSkyIosTest-Info.plist -genpkginfo "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Info.plist"36"20938243-5C25-4EE9-9426-4F765FA2BD1A-
+
+CTouch /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app
+r0
+

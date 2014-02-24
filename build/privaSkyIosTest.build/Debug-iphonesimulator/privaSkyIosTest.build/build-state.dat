@@ -1,0 +1,1331 @@
+TprivaSkyIosTest
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Info.plist ofxiOS-Info.plist
+cCpResource Project.xcconfig build/Debug-iphonesimulator/privaSkyIosTest.app/Project.xcconfig
+cCpResource ../../../libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig build/Debug-iphonesimulator/privaSkyIosTest.app/CoreOF.xcconfig
+cCpResource bin/data/Icon@2x.png build/Debug-iphonesimulator/privaSkyIosTest.app/Icon@2x.png
+cCpResource bin/data/Icon.png build/Debug-iphonesimulator/privaSkyIosTest.app/Icon.png
+cCpResource bin/data/Default.png build/Debug-iphonesimulator/privaSkyIosTest.app/Default.png
+cCpResource bin/data/Default@2x.png build/Debug-iphonesimulator/privaSkyIosTest.app/Default@2x.png
+cCpResource bin/data/Default-568h@2x~iphone.png build/Debug-iphonesimulator/privaSkyIosTest.app/Default-568h@2x~iphone.png
+cProcessPCH++ /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-ezacumcgvvyoajcbgiofuweqnwfz/ofxiOS_Prefix.pch.pth ofxiOS_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-cghnczagqvmetqefmjtdukcgypox/ofxiOS_Prefix.pch.pth ofxiOS_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/ofApp.o /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/ofApp.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/fft.o /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/fft.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/main.o /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/main.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/privaSkyIosTest normal i386
+cGenerateDSYMFile /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app.dSYM /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/privaSkyIosTest
+cPhaseScriptExecution "Run Script" /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Script-9255DD331112741900D6945E.sh
+cTouch /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000051649DDF00000000001EB540
+t1365548511
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051649DDB00000000003D4DF0
+t1365548507
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000051649DE30000000000228FE0
+t1365548515
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000051649DE4000000000009C590
+t1365548516
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000051649DE50000000000085620
+t1365548517
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000051649DE90000000000020F20
+t1365548521
+s134944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000051649DF100000000003DDFA0
+t1365548529
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000051649DF100000000000015F7
+t1365548529
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c0000000051649E0600000000000F9CF0
+t1365548550
+s1023216
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c0000000051649E1A0000000000030EB0
+t1365548570
+s200368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000051649E1A0000000000015400
+t1365548570
+s87040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000051649E1D00000000001D5750
+t1365548573
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000051649E260000000000000E8D
+t1365548582
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000051649E290000000000AB6230
+t1365548585
+s11231792
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxAccelerometer/src/ofxAccelerometer.h
+c000000005305B56C00000000000019F8
+t1392883052
+s6648
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxMultiTouch/src/ofxMultiTouch.h
+c000000005305B56C0000000000000C57
+t1392883052
+s3159
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxMultiTouch/src/ofxMultiTouchListener.h
+c000000005305B56C0000000000000BB7
+t1392883052
+s2999
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/app/ofAppiOSWindow.h
+c000000005305B56C000000000000105E
+t1392883052
+s4190
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/app/ofxiOSApp.h
+c000000005305B56C00000000000005A2
+t1392883052
+s1442
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/core/ofxiOSAppDelegate.h
+c000000005305B56C0000000000000A94
+t1392883052
+s2708
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/core/ofxiOSEAGLView.h
+c000000005305B56C0000000000000397
+t1392883052
+s919
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/events/ofxiOSAlerts.h
+c000000005305B56C0000000000000E6C
+t1392883052
+s3692
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/events/ofxiOSAlertsListener.h
+c000000005305B56C0000000000000892
+t1392883052
+s2194
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/gl/EAGLView.h
+c000000005305B56C0000000000000F0A
+t1392883052
+s3850
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/gl/ESRenderer.h
+c000000005305B56C0000000000000216
+t1392883052
+s534
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/ofxiOS.h
+c000000005305B56C000000000000088A
+t1392883052
+s2186
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/sound/ofxiOSSoundPlayer.h
+c000000005305B56C0000000000000376
+t1392883052
+s886
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/sound/ofxiOSSoundStream.h
+c000000005305B56C00000000000005C0
+t1392883052
+s1472
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/utils/ofxiOSCoreLocation.h
+c000000005305B56C00000000000009CD
+t1392883052
+s2509
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/utils/ofxiOSExtras.h
+c000000005305B56C00000000000025C2
+t1392883052
+s9666
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/utils/ofxiOSImagePicker.h
+c000000005305B56C0000000000000DC0
+t1392883052
+s3520
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/utils/ofxiOSKeyboard.h
+c000000005305B56C00000000000006F0
+t1392883052
+s1776
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/utils/ofxiOSMapKit.h
+c000000005305B56C000000000000162E
+t1392883052
+s5678
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/utils/ofxiOSMapKitListener.h
+c000000005305B56C00000000000008DC
+t1392883052
+s2268
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/video/ofxiOSVideoGrabber.h
+c000000005305B56C0000000000000364
+t1392883052
+s868
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../addons/ofxiOS/src/video/ofxiOSVideoPlayer.h
+c000000005305B56C0000000000000777
+t1392883052
+s1911
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/3d/of3dPrimitives.h
+c000000005305B56C000000000000209B
+t1392883052
+s8347
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/3d/of3dUtils.h
+c000000005305B56C00000000000001B2
+t1392883052
+s434
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/3d/ofCamera.h
+c000000005305B56C0000000000000A1A
+t1392883052
+s2586
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/3d/ofEasyCam.h
+c000000005305B56C00000000000007D4
+t1392883052
+s2004
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/3d/ofMesh.h
+c000000005305B56C0000000000001C2E
+t1392883052
+s7214
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/3d/ofNode.h
+c000000005305B56C0000000000001454
+t1392883052
+s5204
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/app/ofAppBaseWindow.h
+c000000005305B56C000000000000082C
+t1392883052
+s2092
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/app/ofAppRunner.h
+c000000005305B56C0000000000000A14
+t1392883052
+s2580
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/app/ofBaseApp.h
+c000000005305B56C000000000000089E
+t1392883052
+s2206
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/events/ofDelegate.h
+c000000005305B56C0000000000001B84
+t1392883052
+s7044
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/events/ofEventUtils.h
+c000000005305B56C0000000000002073
+t1392883052
+s8307
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/events/ofEvents.h
+c000000005305B56C0000000000001DDF
+t1392883052
+s7647
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/gl/ofFbo.h
+c000000005305B56C00000000000011A7
+t1392883052
+s4519
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/gl/ofGLProgrammableRenderer.h
+c000000005305B56C00000000000018FA
+t1392883052
+s6394
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/gl/ofGLRenderer.h
+c000000005305B56C0000000000001492
+t1392883052
+s5266
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/gl/ofGLUtils.h
+c000000005305B56C0000000000001552
+t1392883052
+s5458
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/gl/ofLight.h
+c000000005305B56C000000000000094E
+t1392883052
+s2382
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/gl/ofMaterial.h
+c000000005305B56C00000000000005D2
+t1392883052
+s1490
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/gl/ofShader.h
+c000000005305B56C00000000000018FD
+t1392883052
+s6397
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/gl/ofTexture.h
+c000000005305B56C0000000000001CFB
+t1392883052
+s7419
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/gl/ofVbo.h
+c000000005305B56C0000000000000EA1
+t1392883052
+s3745
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/gl/ofVboMesh.h
+c000000005305B56C0000000000000358
+t1392883052
+s856
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/graphics/of3dGraphics.h
+c000000005305B56C0000000000000FEA
+t1392883052
+s4074
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/graphics/ofGraphics.h
+c000000005305B56C00000000000027EE
+t1392883052
+s10222
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/graphics/ofImage.h
+c000000005305B56C00000000000021C4
+t1392883052
+s8644
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/graphics/ofPath.h
+c000000005305B56C0000000000001AFA
+t1392883052
+s6906
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/graphics/ofPixels.h
+c000000005305B56C000000000000148D
+t1392883052
+s5261
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/graphics/ofPolyline.h
+c000000005305B56C000000000000234E
+t1392883052
+s9038
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/graphics/ofRendererCollection.h
+c000000005305B56C0000000000002E24
+t1392883052
+s11812
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/graphics/ofTessellator.h
+c000000005305B56C0000000000000459
+t1392883052
+s1113
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/graphics/ofTrueTypeFont.h
+c000000005305B56C0000000000000C65
+t1392883052
+s3173
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/math/ofMath.h
+c000000005305B56C000000000000159C
+t1392883052
+s5532
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/math/ofMatrix3x3.h
+c000000005305B56C0000000000000BB7
+t1392883052
+s2999
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/math/ofMatrix4x4.h
+c000000005305B56C0000000000006CA3
+t1392883052
+s27811
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/math/ofQuaternion.h
+c000000005305B56C0000000000003463
+t1392883052
+s13411
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/math/ofVec2f.h
+c000000005305B56C0000000000004343
+t1392883052
+s17219
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/math/ofVec3f.h
+c000000005305B56C00000000000064A7
+t1392883052
+s25767
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/math/ofVec4f.h
+c000000005305B56C0000000000002FCF
+t1392883052
+s12239
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/math/ofVectorMath.h
+c000000005305B56C0000000000000099
+t1392883052
+s153
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/ofMain.h
+c000000005305B56C000000000000070A
+t1392883052
+s1802
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/sound/ofBaseSoundPlayer.h
+c000000005305B56C0000000000000406
+t1392883052
+s1030
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/sound/ofBaseSoundStream.h
+c000000005305B56C000000000000036D
+t1392883052
+s877
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/sound/ofSoundPlayer.h
+c000000005305B56C000000000000075B
+t1392883052
+s1883
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/sound/ofSoundStream.h
+c000000005305B56C000000000000073B
+t1392883052
+s1851
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/types/ofBaseTypes.h
+c000000005305B56C000000000000369C
+t1392883052
+s13980
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/types/ofColor.h
+c000000005305B56C0000000000001D09
+t1392883052
+s7433
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/types/ofParameter.h
+c000000005305B56C0000000000005A4B
+t1392883052
+s23115
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/types/ofParameterGroup.h
+c000000005305B56C000000000000104C
+t1392883052
+s4172
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/types/ofPoint.h
+c000000005305B56C000000000000003D
+t1392883052
+s61
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/types/ofRectangle.h
+c000000005305B56C0000000000001C5F
+t1392883052
+s7263
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/types/ofTypes.h
+c000000005305B56C00000000000013C2
+t1392883052
+s5058
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/utils/ofConstants.h
+c000000005305B56C000000000000490B
+t1392883052
+s18699
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/utils/ofFileUtils.h
+c000000005305B56C0000000000002075
+t1392883052
+s8309
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/utils/ofLog.h
+c000000005305B56C0000000000001836
+t1392883052
+s6198
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/utils/ofMatrixStack.h
+c000000005305B56C0000000000000A56
+t1392883052
+s2646
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/utils/ofSystemUtils.h
+c000000005305B56C0000000000000202
+t1392883052
+s514
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/utils/ofThread.h
+c000000005305B56C0000000000001410
+t1392883052
+s5136
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/utils/ofURLFileLoader.h
+c000000005305B56C00000000000008FE
+t1392883052
+s2302
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/utils/ofUtils.h
+c000000005305B56C00000000000017D0
+t1392883052
+s6096
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/utils/ofXml.h
+c000000005305B56C0000000000001FA9
+t1392883052
+s8105
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/video/ofVideoGrabber.h
+c000000005305B56C0000000000000AE6
+t1392883052
+s2790
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworks/video/ofVideoPlayer.h
+c000000005305B56C0000000000000B95
+t1392883052
+s2965
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig
+c000000005305B56C0000000000000A29
+t1392883052
+s2601
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/AbstractDelegate.h
+c000000005305B56C0000000000000E6B
+t1392883052
+s3691
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/AbstractEvent.h
+c000000005305B56C0000000000005544
+t1392883052
+s21828
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/AbstractPriorityDelegate.h
+c000000005305B56C00000000000009C9
+t1392883052
+s2505
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/ActiveMethod.h
+c000000005305B56C0000000000001C64
+t1392883052
+s7268
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/ActiveResult.h
+c000000005305B56C0000000000002E66
+t1392883052
+s11878
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/ActiveRunnable.h
+c000000005305B56C0000000000001785
+t1392883052
+s6021
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/ActiveStarter.h
+c000000005305B56C0000000000000927
+t1392883052
+s2343
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Any.h
+c000000005305B56C00000000000020E8
+t1392883052
+s8424
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/AtomicCounter.h
+c000000005305B56C0000000000002138
+t1392883052
+s8504
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/AutoPtr.h
+c000000005305B56C0000000000001E0C
+t1392883052
+s7692
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/AutoReleasePool.h
+c000000005305B56C0000000000000C42
+t1392883052
+s3138
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Bugcheck.h
+c000000005305B56C00000000000014A9
+t1392883052
+s5289
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Condition.h
+c000000005305B56C0000000000001236
+t1392883052
+s4662
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Config.h
+c000000005305B56C0000000000000EA4
+t1392883052
+s3748
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/AbstractContainerNode.h
+c000000005305B56C0000000000000E9C
+t1392883052
+s3740
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/AbstractNode.h
+c000000005305B56C000000000000127B
+t1392883052
+s4731
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/Attr.h
+c000000005305B56C0000000000001E38
+t1392883052
+s7736
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/CharacterData.h
+c000000005305B56C0000000000001233
+t1392883052
+s4659
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/ChildNodesList.h
+c000000005305B56C00000000000008CF
+t1392883052
+s2255
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/DOMException.h
+c000000005305B56C00000000000013B9
+t1392883052
+s5049
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/DOMObject.h
+c000000005305B56C0000000000000E55
+t1392883052
+s3669
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/DOMParser.h
+c000000005305B56C0000000000001005
+t1392883052
+s4101
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/DOMWriter.h
+c000000005305B56C000000000000105D
+t1392883052
+s4189
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/Document.h
+c000000005305B56C0000000000002C58
+t1392883052
+s11352
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/DocumentEvent.h
+c000000005305B56C0000000000000D80
+t1392883052
+s3456
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/DocumentFragment.h
+c000000005305B56C0000000000001153
+t1392883052
+s4435
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/Element.h
+c000000005305B56C000000000000247F
+t1392883052
+s9343
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/Event.h
+c000000005305B56C0000000000001CD3
+t1392883052
+s7379
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/EventTarget.h
+c000000005305B56C0000000000000FEE
+t1392883052
+s4078
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/MutationEvent.h
+c000000005305B56C00000000000015B9
+t1392883052
+s5561
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/NamedNodeMap.h
+c000000005305B56C0000000000001172
+t1392883052
+s4466
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/Node.h
+c000000005305B56C0000000000003276
+t1392883052
+s12918
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/NodeFilter.h
+c000000005305B56C0000000000001A30
+t1392883052
+s6704
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/NodeIterator.h
+c000000005305B56C000000000000189F
+t1392883052
+s6303
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/NodeList.h
+c000000005305B56C0000000000000A81
+t1392883052
+s2689
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/DOM/Text.h
+c000000005305B56C0000000000000ECF
+t1392883052
+s3791
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Event.h
+c000000005305B56C0000000000000E58
+t1392883052
+s3672
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Event_POSIX.h
+c000000005305B56C0000000000000A91
+t1392883052
+s2705
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Exception.h
+c000000005305B56C00000000000028B1
+t1392883052
+s10417
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/File.h
+c000000005305B56C0000000000001FCC
+t1392883052
+s8140
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/File_UNIX.h
+c000000005305B56C0000000000000BC1
+t1392883052
+s3009
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Foundation.h
+c000000005305B56C00000000000010F9
+t1392883052
+s4345
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/FunctionPriorityDelegate.h
+c000000005305B56C0000000000002C69
+t1392883052
+s11369
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Mutex.h
+c000000005305B56C0000000000001DD6
+t1392883052
+s7638
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Mutex_POSIX.h
+c000000005305B56C0000000000000AC2
+t1392883052
+s2754
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/NotificationStrategy.h
+c000000005305B56C0000000000000F3F
+t1392883052
+s3903
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Path.h
+c000000005305B56C00000000000036A0
+t1392883052
+s13984
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Platform.h
+c000000005305B56C0000000000001CBD
+t1392883052
+s7357
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Platform_POSIX.h
+c000000005305B56C0000000000000843
+t1392883052
+s2115
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/PriorityDelegate.h
+c000000005305B56C0000000000003516
+t1392883052
+s13590
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/PriorityEvent.h
+c000000005305B56C0000000000000A78
+t1392883052
+s2680
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/PriorityExpire.h
+c000000005305B56C000000000000155B
+t1392883052
+s5467
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/PriorityStrategy.h
+c000000005305B56C00000000000013CE
+t1392883052
+s5070
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/RefCountedObject.h
+c000000005305B56C0000000000000BB1
+t1392883052
+s2993
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/RegularExpression.h
+c000000005305B56C000000000000318C
+t1392883052
+s12684
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Runnable.h
+c000000005305B56C0000000000000861
+t1392883052
+s2145
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/SAX/ContentHandler.h
+c000000005305B56C000000000000322F
+t1392883052
+s12847
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/SAX/DTDHandler.h
+c000000005305B56C00000000000012A1
+t1392883052
+s4769
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/SAX/LexicalHandler.h
+c000000005305B56C0000000000001975
+t1392883052
+s6517
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/SAX/Locator.h
+c000000005305B56C0000000000001678
+t1392883052
+s5752
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/SAX/NamespaceSupport.h
+c000000005305B56C0000000000002491
+t1392883052
+s9361
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/SAX/SAXException.h
+c000000005305B56C0000000000001BF7
+t1392883052
+s7159
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/SAX/SAXParser.h
+c000000005305B56C00000000000010D3
+t1392883052
+s4307
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/SAX/XMLReader.h
+c000000005305B56C00000000000026EA
+t1392883052
+s9962
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/ScopedLock.h
+c000000005305B56C0000000000000CC5
+t1392883052
+s3269
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/ScopedUnlock.h
+c000000005305B56C000000000000092B
+t1392883052
+s2347
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/SharedPtr.h
+c000000005305B56C0000000000002278
+t1392883052
+s8824
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/SignalHandler.h
+c000000005305B56C0000000000001205
+t1392883052
+s4613
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/SingletonHolder.h
+c000000005305B56C0000000000000A67
+t1392883052
+s2663
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/StreamConverter.h
+c000000005305B56C0000000000001588
+t1392883052
+s5512
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/StreamUtil.h
+c000000005305B56C0000000000000E2F
+t1392883052
+s3631
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/TextEncoding.h
+c000000005305B56C0000000000002078
+t1392883052
+s8312
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Thread.h
+c000000005305B56C0000000000001E48
+t1392883052
+s7752
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/ThreadPool.h
+c000000005305B56C0000000000001C8A
+t1392883052
+s7306
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Thread_POSIX.h
+c000000005305B56C00000000000014C0
+t1392883052
+s5312
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Timestamp.h
+c000000005305B56C0000000000001A41
+t1392883052
+s6721
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/Types.h
+c000000005305B56C0000000000001ABE
+t1392883052
+s6846
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/UnbufferedStreamBuf.h
+c000000005305B56C0000000000001262
+t1392883052
+s4706
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/XML/Name.h
+c000000005305B56C0000000000001200
+t1392883052
+s4608
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/XML/NamePool.h
+c000000005305B56C0000000000000C08
+t1392883052
+s3080
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/XML/ParserEngine.h
+c000000005305B56C000000000000332C
+t1392883052
+s13100
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/XML/XML.h
+c000000005305B56C0000000000000A8A
+t1392883052
+s2698
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/XML/XMLException.h
+c000000005305B56C00000000000007EB
+t1392883052
+s2027
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/XML/XMLStream.h
+c000000005305B56C0000000000000C0A
+t1392883052
+s3082
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/XML/XMLString.h
+c000000005305B56C0000000000000CB6
+t1392883052
+s3254
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/XML/XMLWriter.h
+c000000005305B56C00000000000036CC
+t1392883052
+s14028
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/XML/expat.h
+c000000005305B56C0000000000009D93
+t1392883052
+s40339
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/poco/include/Poco/XML/expat_external.h
+c000000005305B56C0000000000000D24
+t1392883052
+s3364
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/tess2/include/tesselator.h
+c000000005305B56C0000000000001C67
+t1392883052
+s7271
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/Project.xcconfig
+c00000000530786F900000000000001C4
+t1393002233
+s452
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/bin/data/Default-568h@2x~iphone.png
+c00000000530786FA00000000000045BA
+t1393002234
+s17850
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/bin/data/Default.png
+c00000000530786FA00000000000016FC
+t1393002234
+s5884
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/bin/data/Default@2x.png
+c00000000530786FA0000000000002AC5
+t1393002234
+s10949
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/bin/data/Icon.png
+c00000000530786FA00000000000008EF
+t1393002234
+s2287
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/bin/data/Icon@2x.png
+c00000000530786FA0000000000000F3C
+t1393002234
+s3900
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app
+t1393260265
+s680
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app.dSYM
+t1393259945
+s102
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/CoreOF.xcconfig
+t1393257647
+s2601
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Default-568h@2x~iphone.png
+t1393260265
+s17850
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Default.png
+t1393260265
+s5884
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Default@2x.png
+t1393260265
+s10949
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Icon.png
+t1393260265
+s2287
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Icon@2x.png
+t1393260265
+s3900
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Info.plist
+t1393259283
+s1005
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/PkgInfo
+t1393259283
+s8
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Project.xcconfig
+t1393257647
+s452
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/privaSkyIosTest
+t1393259944
+s14764204
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/fft.o
+t1393257874
+s19508
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/main.o
+t1393257876
+s139896
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/ofApp.o
+t1393259942
+s137528
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/privaSkyIosTest.LinkFileList
+c00000000530B6CAF0000000000000246
+t1393257647
+s582
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Script-9255DD331112741900D6945E.sh
+c00000000530B6CAF0000000000000042
+t1393257647
+s66
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/ofxiOS_Prefix.pch
+c00000000530786F900000000000000B5
+t1393002233
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/fft.cpp
+c0000000052E01AD40000000000002C78
+t1390418644
+s11384
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/fft.h
+c0000000046C2511600000000000001D0
+t1187139862
+s464
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/main.mm
+c00000000530A6CE4000000000000009E
+t1393192164
+s158
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/ofApp.h
+c00000000530A8AF100000000000004F5
+t1393199857
+s1269
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/ofApp.mm
+c00000000530B75A2000000000000154B
+t1393259938
+s5451
+
+N/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/libs/openFrameworksCompiled/lib/ios/libofxiOS_iphonesimulator_Debug.a
+c00000000530B750F0000000002F47908
+t1393259791
+s49576200
+
+N/var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-cghnczagqvmetqefmjtdukcgypox/ofxiOS_Prefix.pch.pth
+t1393257874
+s106380
+
+N/var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-equmlpwsiquyopdgrhkffkvrlhkr/ofxiOS_Prefix.pch.pth
+t1393202292
+s106420
+
+N/var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-ezacumcgvvyoajcbgiofuweqnwfz/ofxiOS_Prefix.pch.pth
+t1393257874
+s5442596
+
+N/var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-fyvcznjhfyahiygdsmnynpedxhqi/ofxiOS_Prefix.pch.pth
+t1393202293
+s5441896
+
+NofxiOS-Info.plist
+c00000000530B72F600000000000005D5
+t1393259254
+s1493
+
+CBuild AST from /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/fft.cpp
+r0
+
+CBuild AST from /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/main.mm
+r0
+
+CBuild AST from /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/ofApp.mm
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies78998d75aebbb841^e0108e75aebbb841^---0#1#0#--18"Check dependencies36"3003E882-83C7-4163-A818-3D0882B3819E-
+
+CCompileC build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/fft.o /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/fft.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s414950674.143434
+e414950674.260491
+r1
+xCompileC
+xbuild/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/fft.o
+x/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/fft.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/fft.cpp57762512a5bbb841^b08f4212a5bbb841^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/fft.cpp0000000000000000^5178"CompileC build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/fft.o src/fft.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -mios-simulator-version-min=6.1 -iquote "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-generated-files.hmap" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-own-target-headers.hmap" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-all-target-headers.hmap" -iquote "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-project-headers.hmap" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/include" -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiOS -I../../../addons/ofxiOS/src -I../../../addons/ofxiOS/src/app -I../../../addons/ofxiOS/src/core -I../../../addons/ofxiOS/src/events -I../../../addons/ofxiOS/src/gl -I../../../addons/ofxiOS/src/sound -I../../../addons/ofxiOS/src/utils -I../../../addons/ofxiOS/src/video -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/rtaudio/include -I../../../libs/glu/include_ios -I../../../libs/openssl/include -Isrc "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/DerivedSources/i386" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/DerivedSources" "-F/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator" -include /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-cghnczagqvmetqefmjtdukcgypox/ofxiOS_Prefix.pch -MMD -MT dependencies -MF "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/fft.d" --serialize-diagnostics "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/fft.dia" -c "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/fft.cpp" -o "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/fft.o"36"EA96F1CA-294C-45B6-B078-69F8447F1DF5-
+
+CCompileC build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/main.o /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/main.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s414950674.873856
+e414950676.501261
+r1
+xCompileC
+xbuild/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/main.o
+x/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/main.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/main.mmc904e012a5bbb841^61528014a5bbb841^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/main.mm0000000000000000^5412"CompileC build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/main.o src/main.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wno-protocol -Wdeprecated-declarations -Wno-invalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-generated-files.hmap" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-own-target-headers.hmap" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-all-target-headers.hmap" -iquote "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-project-headers.hmap" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/include" -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiOS -I../../../addons/ofxiOS/src -I../../../addons/ofxiOS/src/app -I../../../addons/ofxiOS/src/core -I../../../addons/ofxiOS/src/events -I../../../addons/ofxiOS/src/gl -I../../../addons/ofxiOS/src/sound -I../../../addons/ofxiOS/src/utils -I../../../addons/ofxiOS/src/video -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/rtaudio/include -I../../../libs/glu/include_ios -I../../../libs/openssl/include -Isrc "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/DerivedSources/i386" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/DerivedSources" "-F/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator" -include /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-ezacumcgvvyoajcbgiofuweqnwfz/ofxiOS_Prefix.pch -MMD -MT dependencies -MF "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/main.d" --serialize-diagnostics "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/main.dia" -c "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/main.mm" -o "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/main.o"36"E5CF19F4-53E5-44FB-B56E-B5B3E691BDBC-
+
+CCompileC build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/ofApp.o /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/ofApp.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s414952740.988433
+e414952742.958054
+r1
+xCompileC
+xbuild/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/ofApp.o
+x/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/ofApp.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/ofApp.mm3258fd24adbbb841^1c42f526adbbb841^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/ofApp.mm0000000000000000^5418"CompileC build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/ofApp.o src/ofApp.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wno-protocol -Wdeprecated-declarations -Wno-invalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-generated-files.hmap" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-own-target-headers.hmap" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-all-target-headers.hmap" -iquote "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-project-headers.hmap" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/include" -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiOS -I../../../addons/ofxiOS/src -I../../../addons/ofxiOS/src/app -I../../../addons/ofxiOS/src/core -I../../../addons/ofxiOS/src/events -I../../../addons/ofxiOS/src/gl -I../../../addons/ofxiOS/src/sound -I../../../addons/ofxiOS/src/utils -I../../../addons/ofxiOS/src/video -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/rtaudio/include -I../../../libs/glu/include_ios -I../../../libs/openssl/include -Isrc "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/DerivedSources/i386" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/DerivedSources" "-F/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator" -include /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-ezacumcgvvyoajcbgiofuweqnwfz/ofxiOS_Prefix.pch -MMD -MT dependencies -MF "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/ofApp.d" --serialize-diagnostics "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/ofApp.dia" -c "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/ofApp.mm" -o "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/ofApp.o"36"D43772C3-EAB7-40DE-AA3C-94A85D0EA7C5-
+
+CCpResource ../../../libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig build/Debug-iphonesimulator/privaSkyIosTest.app/CoreOF.xcconfig
+s414950447.336546
+e414950447.342129
+r1
+xCpResource
+x../../../libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig
+xbuild/Debug-iphonesimulator/privaSkyIosTest.app/CoreOF.xcconfig
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/privaSkyIosTest.app/CoreOF.xcconfig289b562fa4bbb841^01a3572fa4bbb841^---0#0#0#-19%DVTDocumentLocation2@174"file://localhost/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/CoreOF.xcconfig000000000080d041^984"CpResource ../../../libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig build/Debug-iphonesimulator/privaSkyIosTest.app/CoreOF.xcconfig    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/../../../libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig" "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app"36"F216E1B2-E7D3-41BB-AA11-368B2DB1A84C-
+
+CCpResource Project.xcconfig build/Debug-iphonesimulator/privaSkyIosTest.app/Project.xcconfig
+s414950447.336554
+e414950447.342907
+r1
+xCpResource
+xProject.xcconfig
+xbuild/Debug-iphonesimulator/privaSkyIosTest.app/Project.xcconfig
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug-iphonesimulator/privaSkyIosTest.app/Project.xcconfig289b562fa4bbb841^e2c8572fa4bbb841^---0#0#0#-19%DVTDocumentLocation2@175"file://localhost/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Project.xcconfig000000000080d041^889"CpResource Project.xcconfig build/Debug-iphonesimulator/privaSkyIosTest.app/Project.xcconfig    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/Project.xcconfig" "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app"36"90E4046D-5349-4047-9F06-35E0D2B663C6-
+
+CCpResource bin/data/Default-568h@2x~iphone.png build/Debug-iphonesimulator/privaSkyIosTest.app/Default-568h@2x~iphone.png
+s414950447.350868
+e414950447.356568
+r1
+xCpResource
+xbin/data/Default-568h@2x~iphone.png
+xbuild/Debug-iphonesimulator/privaSkyIosTest.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/privaSkyIosTest.app/Default-568h@2x~iphone.png94f7592fa4bbb841^50ab5c2fa4bbb841^---0#0#0#-19%DVTDocumentLocation2@185"file://localhost/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Default-568h@2x~iphone.png000000000080d041^941"CpResource "bin/data/Default-568h@2x~iphone.png" "build/Debug-iphonesimulator/privaSkyIosTest.app/Default-568h@2x~iphone.png"    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/bin/data/Default-568h@2x~iphone.png" "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app"36"CBABBCBF-CD86-4BD4-8DC0-9F303EE94B25-
+
+CCpResource bin/data/Default.png build/Debug-iphonesimulator/privaSkyIosTest.app/Default.png
+s414950447.343466
+e414950447.383242
+r1
+xCpResource
+xbin/data/Default.png
+xbuild/Debug-iphonesimulator/privaSkyIosTest.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/privaSkyIosTest.app/Default.pngf910582fa4bbb841^d8b8622fa4bbb841^---0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Default.png000000000080d041^892"CpResource bin/data/Default.png build/Debug-iphonesimulator/privaSkyIosTest.app/Default.png    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/bin/data/Default.png" "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app"36"F51CD762-C51A-465A-B612-43CEE15AE296-
+
+CCpResource bin/data/Default@2x.png build/Debug-iphonesimulator/privaSkyIosTest.app/Default@2x.png
+s414950447.343473
+e414950447.362529
+r1
+xCpResource
+xbin/data/Default@2x.png
+xbuild/Debug-iphonesimulator/privaSkyIosTest.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/privaSkyIosTest.app/Default@2x.png2217582fa4bbb841^58e35c2fa4bbb841^---0#0#0#-19%DVTDocumentLocation2@173"file://localhost/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Default@2x.png000000000080d041^905"CpResource "bin/data/Default@2x.png" "build/Debug-iphonesimulator/privaSkyIosTest.app/Default@2x.png"    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/bin/data/Default@2x.png" "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app"36"73EB023E-D48F-4605-8274-B8D195425B1F-
+
+CCpResource bin/data/Icon.png build/Debug-iphonesimulator/privaSkyIosTest.app/Icon.png
+s414950447.337083
+e414950447.344094
+r1
+xCpResource
+xbin/data/Icon.png
+xbuild/Debug-iphonesimulator/privaSkyIosTest.app/Icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/privaSkyIosTest.app/Icon.pngc7a1562fa4bbb841^c021582fa4bbb841^---0#0#0#-19%DVTDocumentLocation2@167"file://localhost/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Icon.png000000000080d041^883"CpResource bin/data/Icon.png build/Debug-iphonesimulator/privaSkyIosTest.app/Icon.png    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/bin/data/Icon.png" "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app"36"A8755E13-6949-4BDC-8A3E-17A3299A8294-
+
+CCpResource bin/data/Icon@2x.png build/Debug-iphonesimulator/privaSkyIosTest.app/Icon@2x.png
+s414950447.337029
+e414950447.362731
+r1
+xCpResource
+xbin/data/Icon@2x.png
+xbuild/Debug-iphonesimulator/privaSkyIosTest.app/Icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/privaSkyIosTest.app/Icon@2x.png3fad562fa4bbb841^ffe75c2fa4bbb841^---0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Icon@2x.png000000000080d041^896"CpResource "bin/data/Icon@2x.png" "build/Debug-iphonesimulator/privaSkyIosTest.app/Icon@2x.png"    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/bin/data/Icon@2x.png" "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app"36"D4574DDA-DDF1-4AE5-96C0-B444702A80B7-
+
+CGenerateDSYMFile /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app.dSYM /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/privaSkyIosTest
+s414952744.519208
+e414952745.890516
+r1
+xGenerateDSYMFile
+x/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app.dSYM
+x/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/privaSkyIosTest
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection156"Generate /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app.dSYMd3148528adbbb841^f0f7e329adbbb841^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app.dSYM/0000000000000000^847"GenerateDSYMFile build/Debug-iphonesimulator/privaSkyIosTest.app.dSYM build/Debug-iphonesimulator/privaSkyIosTest.app/privaSkyIosTest    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/privaSkyIosTest" -o "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app.dSYM"36"B764B2EF-3DF6-4F6B-A1FB-7442550BB578-
+
+CLd /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/privaSkyIosTest normal i386
+s414952742.965056
+e414952744.512650
+r1
+xLd
+x/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/privaSkyIosTest
+xnormal
+xi386
+old: warning: ignoring file ../../../libs/FreeImage/lib/ios/freeimage.a, missing required architecture i386 in file ../../../libs/FreeImage/lib/ios/freeimage.a (2 slices)
+old: warning: ignoring file ../../../libs/glu/lib/ios/glu-ios.a, missing required architecture i386 in file ../../../libs/glu/lib/ios/glu-ios.a (2 slices)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection163"Link /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/privaSkyIosTest9547f726adbbb841^24428328adbbb841^-324"ld: warning: ignoring file ../../../libs/FreeImage/lib/ios/freeimage.a, missing required architecture i386 in file ../../../libs/FreeImage/lib/ios/freeimage.a (2 slices)ld: warning: ignoring file ../../../libs/glu/lib/ios/glu-ios.a, missing required architecture i386 in file ../../../libs/glu/lib/ios/glu-ios.a (2 slices)2(21%IDEActivityLogMessage2@156"Ignoring file ../../../libs/FreeImage/lib/ios/freeimage.a, missing required architecture i386 in file ../../../libs/FreeImage/lib/ios/freeimage.a (2 slices)-414952742#0#170#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@140"Ignoring file ../../../libs/glu/lib/ios/glu-ios.a, missing required architecture i386 in file ../../../libs/glu/lib/ios/glu-ios.a (2 slices)-414952742#170#154#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#0#--2439"Ld build/Debug-iphonesimulator/privaSkyIosTest.app/privaSkyIosTest normal i386    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk "-L/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator" "-F/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator" -filelist "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/privaSkyIosTest.LinkFileList" -Xlinker -objc_abi_version -Xlinker 2 -ObjC ../../../libs/FreeImage/lib/osx/freeimage.a ../../../libs/freetype/lib/ios/freetype.a ../../../libs/FreeImage/lib/ios/freeimage.a ../../../libs/poco/lib/ios/PocoNet.a ../../../libs/poco/lib/ios/PocoNetSSL.a ../../../libs/poco/lib/ios/PocoCrypto.a ../../../libs/poco/lib/ios/PocoXML.a ../../../libs/poco/lib/ios/PocoZip.a ../../../libs/poco/lib/ios/PocoUtil.a ../../../libs/poco/lib/ios/PocoFoundation.a ../../../libs/tess2/lib/ios/tess2.a ../../../libs/glu/lib/ios/glu.a ../../../libs/glu/lib/ios/glu-ios.a ../../../libs/openssl/lib/ios/ssl.a ../../../libs/openssl/lib/ios/crypto.a -stdlib=libstdc++ -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/libs/openFrameworksCompiled/lib/ios/libofxiOS_iphonesimulator_Debug.a" -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AudioToolbox -framework OpenAL -framework CoreLocation -framework CoreGraphics -framework AVFoundation -framework CoreMedia -framework CoreVideo -framework MapKit -o "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/privaSkyIosTest"36"ADE5902B-53FF-46D6-A50B-6A3083582E37-
+
+CPhaseScriptExecution "Run Script" /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Script-9255DD331112741900D6945E.sh
+s414953077.619898
+e414953078.478157
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Script-9255DD331112741900D6945E.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'bfd49f75aebbb841^d7677a76aebbb841^---0#0#0#--27761"PhaseScriptExecution "Run Script" build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Script-9255DD331112741900D6945E.sh    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER curry    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build"    setenv BUILD_ROOT "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build"    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator"    setenv CACHE_ROOT /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_CXX_LIBRARY libstdc++    setenv CLASS_FILE_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app"    setenv CODE_SIGN_IDENTITY "iPhone Developer: Catherine McCurry (XYGF8C723Z)"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES NO    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator"    setenv CONFIGURATION_TEMP_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator"    setenv CONTENTS_FOLDER_PATH privaSkyIosTest.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH privaSkyIosTest.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/privaSkyIosTest.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME privaSkyIosTest.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator"    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH privaSkyIosTest.app/Executables    setenv EXECUTABLE_FOLDER_PATH privaSkyIosTest.app    setenv EXECUTABLE_NAME privaSkyIosTest    setenv EXECUTABLE_PATH privaSkyIosTest.app/privaSkyIosTest    setenv FILE_LIST "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH privaSkyIosTest.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME privaSkyIosTest.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER ofxiOS_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ABOUT_POINTER_SIGNEDNESS NO    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_PROTOTYPE_CONVERSION NO    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_FMODEX "\"../../../libs/fmodex/include\""    setenv HEADER_FREEIMAGE "\"../../../libs/FreeImage/include\""    setenv HEADER_FREETYPE "\"../../../libs/freetype/include\""    setenv HEADER_FREETYPE2 "\"../../../libs/freetype/include/freetype2\""    setenv HEADER_GLEW "\"../../../libs/glew/include\""    setenv HEADER_GLU "\"../../../libs/glu/include_ios\""    setenv HEADER_OF "\"../../../libs/openFrameworks/**\""    setenv HEADER_OFXACCELEROMETER "\"../../../addons/ofxAccelerometer/**\""    setenv HEADER_OFXIOS "\"../../../addons/ofxiOS/**\""    setenv HEADER_OFXMULTITOUCH "\"../../../addons/ofxMultiTouch/**\""    setenv HEADER_POCO "\"../../../libs/poco/include\""    setenv HEADER_RTAUDIO "\"../../../libs/rtaudio/include\""    setenv HEADER_SEARCH_PATHS "\"/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/include\" \"../../../libs/openFrameworks/**\" \"../../../addons/ofxiOS/**\" \"../../../addons/ofxMultiTouch/**\" \"../../../addons/ofxAccelerometer/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/rtaudio/include\" \"../../../libs/glu/include_ios\" \"../../../libs/openssl/include\" src"    setenv HEADER_SSL "\"../../../libs/openssl/include\""    setenv HEADER_TESS2 "\"../../../libs/tess2/include\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ofxiOS-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH privaSkyIosTest.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH privaSkyIosTest.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/privaSkyIosTest.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER curry    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/privaSkyIosTest.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH privaSkyIosTest.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-LinkMap-normal-i386.txt"    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator\" "    setenv LIB_CRYPTO "\"../../../libs/openssl/lib/osx/crypto.a\""    setenv LIB_CRYPTO_IPHONE "\"../../../libs/openssl/lib/ios/crypto.a\""    setenv LIB_FREEIMAGE "\"../../../libs/FreeImage/lib/osx/freeimage.a\""    setenv LIB_FREEIMAGE_IPHONE "\"../../../libs/FreeImage/lib/ios/freeimage.a\""    setenv LIB_FREETYPE_IPHONE "\"../../../libs/freetype/lib/ios/freetype.a\""    setenv LIB_GLU "\"../../../libs/glu/lib/ios/glu.a\""    setenv LIB_GLU_IPHONE "\"../../../libs/glu/lib/ios/glu-ios.a\""    setenv LIB_POCOCRYPTO_IPHONE "\"../../../libs/poco/lib/ios/PocoCrypto.a\""    setenv LIB_POCOFOUNDATION_IPHONE "\"../../../libs/poco/lib/ios/PocoFoundation.a\""    setenv LIB_POCONETSSL_IPHONE "\"../../../libs/poco/lib/ios/PocoNetSSL.a\""    setenv LIB_POCONET_IPHONE "\"../../../libs/poco/lib/ios/PocoNet.a\""    setenv LIB_POCOUTIL_IPHONE "\"../../../libs/poco/lib/ios/PocoUtil.a\""    setenv LIB_POCOXML_IPHONE "\"../../../libs/poco/lib/ios/PocoXML.a\""    setenv LIB_POCOZIP_IPHONE "\"../../../libs/poco/lib/ios/PocoZip.a\""    setenv LIB_SSL "\"../../../libs/openssl/lib/osx/ssl.a\""    setenv LIB_SSL_IPHONE "\"../../../libs/openssl/lib/ios/ssl.a\""    setenv LIB_TESS "\"../../../libs/tess2/lib/osx/tess2.a\""    setenv LIB_TESS_IPHONE "\"../../../libs/tess2/lib/ios/tess2.a\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal/i386/privaSkyIosTest.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH privaSkyIosTest.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11G63    setenv MAC_OS_X_VERSION_ACTUAL 1075    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0705    setenv MISC_FLAGS "\"-ObjC\""    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Objects-normal"    setenv OBJROOT "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build"    setenv OF_CORE_HEADERS "\"../../../libs/openFrameworks/**\" \"../../../addons/ofxiOS/**\" \"../../../addons/ofxMultiTouch/**\" \"../../../addons/ofxAccelerometer/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/rtaudio/include\" \"../../../libs/glu/include_ios\" \"../../../libs/openssl/include\""    setenv OF_CORE_LIBS "\"-ObjC\"  \"../../../libs/FreeImage/lib/osx/freeimage.a\"        \"../../../libs/freetype/lib/ios/freetype.a\" \"../../../libs/FreeImage/lib/ios/freeimage.a\" \"../../../libs/poco/lib/ios/PocoNet.a\" \"../../../libs/poco/lib/ios/PocoNetSSL.a\" \"../../../libs/poco/lib/ios/PocoCrypto.a\" \"../../../libs/poco/lib/ios/PocoXML.a\" \"../../../libs/poco/lib/ios/PocoZip.a\" \"../../../libs/poco/lib/ios/PocoUtil.a\" \"../../../libs/poco/lib/ios/PocoFoundation.a\" \"../../../libs/tess2/lib/ios/tess2.a\" \"../../../libs/glu/lib/ios/glu.a\" \"../../../libs/glu/lib/ios/glu-ios.a\" \"../../../libs/openssl/lib/ios/ssl.a\" \"../../../libs/openssl/lib/ios/crypto.a\""    setenv OF_PATH ../../..    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "\"-ObjC\"  \"../../../libs/FreeImage/lib/osx/freeimage.a\"        \"../../../libs/freetype/lib/ios/freetype.a\" \"../../../libs/FreeImage/lib/ios/freeimage.a\" \"../../../libs/poco/lib/ios/PocoNet.a\" \"../../../libs/poco/lib/ios/PocoNetSSL.a\" \"../../../libs/poco/lib/ios/PocoCrypto.a\" \"../../../libs/poco/lib/ios/PocoXML.a\" \"../../../libs/poco/lib/ios/PocoZip.a\" \"../../../libs/poco/lib/ios/PocoUtil.a\" \"../../../libs/poco/lib/ios/PocoFoundation.a\" \"../../../libs/tess2/lib/ios/tess2.a\" \"../../../libs/glu/lib/ios/glu.a\" \"../../../libs/glu/lib/ios/glu-ios.a\" \"../../../libs/openssl/lib/ios/ssl.a\" \"../../../libs/openssl/lib/ios/crypto.a\""    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH privaSkyIosTest.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "c++ objective-c++"    setenv PKGINFO_FILE_PATH "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/PkgInfo"    setenv PKGINFO_PATH privaSkyIosTest.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH privaSkyIosTest.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH privaSkyIosTest.app/PrivateHeaders    setenv PRODUCT_NAME privaSkyIosTest    setenv PRODUCT_SETTINGS_PATH "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/ofxiOS-Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT privaSkyIosTest    setenv PROJECT_DERIVED_FILE_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/DerivedSources"    setenv PROJECT_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv PROJECT_FILE_PATH "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/privaSkyIosTest.xcodeproj"    setenv PROJECT_NAME privaSkyIosTest    setenv PROJECT_TEMP_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build"    setenv PROJECT_TEMP_ROOT "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build"    setenv PROVISIONING_PROFILE 45CF1650-FA29-4905-A34C-371D6DC68947    setenv PUBLIC_HEADERS_FOLDER_PATH privaSkyIosTest.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH privaSkyIosTest.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH privaSkyIosTest.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH privaSkyIosTest.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv SRCROOT "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 2    setenv TARGETNAME privaSkyIosTest    setenv TARGET_BUILD_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator"    setenv TARGET_NAME privaSkyIosTest    setenv TARGET_TEMP_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build"    setenv TEMP_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build"    setenv TEMP_FILES_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build"    setenv TEMP_FILE_DIR "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build"    setenv TEMP_ROOT "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build"    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH privaSkyIosTest.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER curry    setenv USER_APPS_DIR /Users/curry/Applications    setenv USER_LIBRARY_DIR /Users/curry/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH privaSkyIosTest.app/version.plist    setenv VERSION_INFO_BUILDER curry    setenv VERSION_INFO_FILE privaSkyIosTest_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:privaSkyIosTest  PROJECT:privaSkyIosTest-\""    setenv WARNING_LDFLAGS -no_arch_warnings    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME privaSkyIosTest.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1003    setenv XCODE_VERSION_ACTUAL 0462    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c "\"/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/Script-9255DD331112741900D6945E.sh\""36"50801B4C-5E74-40D2-8926-D4B8170EE620-
+
+CProcessInfoPlistFile /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Info.plist ofxiOS-Info.plist
+s414952083.920268
+e414952083.925482
+r1
+xProcessInfoPlistFile
+x/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Info.plist
+xofxiOS-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Process ofxiOS-Info.plist18b1eb93aabbb841^5000ed93aabbb841^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/ofxiOS-Info.plist0000000000000000^830"ProcessInfoPlistFile build/Debug-iphonesimulator/privaSkyIosTest.app/Info.plist ofxiOS-Info.plist    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ofxiOS-Info.plist -genpkginfo "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app/Info.plist"36"5EF44AF1-3FE0-4E06-B2D5-1C5D9A3F14B8-
+
+CProcessPCH++ /Users/curry/Library/Developer/Xcode/DerivedData/privaSkyIosTest-ebwbbgfupmxabqfkgsvxwgkdawfb/Index/PrecompiledHeaders/ofxiOS_Prefix-ajasurehzanzkxbcglokkfompzqt_ast/ofxiOS_Prefix.pch.pth ofxiOS_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/curry/Library/Developer/Xcode/DerivedData/privaSkyIosTest-ebwbbgfupmxabqfkgsvxwgkdawfb/Index/PrecompiledHeaders/ofxiOS_Prefix-alokrbwcggoorqfjkonitaubxwik_ast/ofxiOS_Prefix.pch.pth ofxiOS_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/curry/Library/Developer/Xcode/DerivedData/privaSkyIosTest-ebwbbgfupmxabqfkgsvxwgkdawfb/Index/PrecompiledHeaders/ofxiOS_Prefix-ffcydzcrkvwuiibloquspfcjxcxj_ast/ofxiOS_Prefix.pch.pth ofxiOS_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/curry/Library/Developer/Xcode/DerivedData/privaSkyIosTest-ebwbbgfupmxabqfkgsvxwgkdawfb/Index/PrecompiledHeaders/ofxiOS_Prefix-ghdpsksbpputyxdvqwgllmipajhf_ast/ofxiOS_Prefix.pch.pth ofxiOS_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-cghnczagqvmetqefmjtdukcgypox/ofxiOS_Prefix.pch.pth ofxiOS_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s414950674.000542
+e414950674.081784
+r1
+xProcessPCH++
+x/var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-cghnczagqvmetqefmjtdukcgypox/ofxiOS_Prefix.pch.pth
+xofxiOS_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile ofxiOS_Prefix.pchf6270112a5bbb841^68931712a5bbb841^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/ofxiOS_Prefix.pch0000000000000000^4986"ProcessPCH++ /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-cghnczagqvmetqefmjtdukcgypox/ofxiOS_Prefix.pch.pth ofxiOS_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -mios-simulator-version-min=6.1 -iquote "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-generated-files.hmap" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-own-target-headers.hmap" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-all-target-headers.hmap" -iquote "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-project-headers.hmap" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/include" -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiOS -I../../../addons/ofxiOS/src -I../../../addons/ofxiOS/src/app -I../../../addons/ofxiOS/src/core -I../../../addons/ofxiOS/src/events -I../../../addons/ofxiOS/src/gl -I../../../addons/ofxiOS/src/sound -I../../../addons/ofxiOS/src/utils -I../../../addons/ofxiOS/src/video -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/rtaudio/include -I../../../libs/glu/include_ios -I../../../libs/openssl/include -Isrc "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/DerivedSources/i386" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/DerivedSources" "-F/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator" --serialize-diagnostics /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-cghnczagqvmetqefmjtdukcgypox/ofxiOS_Prefix.pch.dia -c "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/ofxiOS_Prefix.pch" -o /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-cghnczagqvmetqefmjtdukcgypox/ofxiOS_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-cghnczagqvmetqefmjtdukcgypox/ofxiOS_Prefix.pch.d36"93DE3FF9-AAAF-4701-BF93-F529380BDE85-
+
+CProcessPCH++ /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-equmlpwsiquyopdgrhkffkvrlhkr/ofxiOS_Prefix.pch.pth ofxiOS_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH++ /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-ezacumcgvvyoajcbgiofuweqnwfz/ofxiOS_Prefix.pch.pth ofxiOS_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s414950674.000510
+e414950674.866921
+r1
+xProcessPCH++
+x/var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-ezacumcgvvyoajcbgiofuweqnwfz/ofxiOS_Prefix.pch.pth
+xofxiOS_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile ofxiOS_Prefix.pche44a0112a5bbb841^4ef0dd12a5bbb841^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/ofxiOS_Prefix.pch0000000000000000^5216"ProcessPCH++ /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-ezacumcgvvyoajcbgiofuweqnwfz/ofxiOS_Prefix.pch.pth ofxiOS_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=0 -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wno-protocol -Wdeprecated-declarations -Wno-invalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-generated-files.hmap" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-own-target-headers.hmap" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-all-target-headers.hmap" -iquote "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/privaSkyIosTest-project-headers.hmap" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/include" -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiOS -I../../../addons/ofxiOS/src -I../../../addons/ofxiOS/src/app -I../../../addons/ofxiOS/src/core -I../../../addons/ofxiOS/src/events -I../../../addons/ofxiOS/src/gl -I../../../addons/ofxiOS/src/sound -I../../../addons/ofxiOS/src/utils -I../../../addons/ofxiOS/src/video -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/rtaudio/include -I../../../libs/glu/include_ios -I../../../libs/openssl/include -Isrc "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/DerivedSources/i386" "-I/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/privaSkyIosTest.build/Debug-iphonesimulator/privaSkyIosTest.build/DerivedSources" "-F/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator" --serialize-diagnostics /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-ezacumcgvvyoajcbgiofuweqnwfz/ofxiOS_Prefix.pch.dia -c "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/ofxiOS_Prefix.pch" -o /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-ezacumcgvvyoajcbgiofuweqnwfz/ofxiOS_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-ezacumcgvvyoajcbgiofuweqnwfz/ofxiOS_Prefix.pch.d36"BA520954-F28B-4D88-9C14-C88380E0039F-
+
+CProcessPCH++ /var/folders/jg/n4p_04p1183cs8q1b2ws4fpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ofxiOS_Prefix-fyvcznjhfyahiygdsmnynpedxhqi/ofxiOS_Prefix.pch.pth ofxiOS_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app
+s414952746.878045
+e414952747.040945
+r1
+xTouch
+x/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Touch /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.appb266e42aadbbb841^1a870a2badbbb841^---0#0#0#--520"Touch build/Debug-iphonesimulator/privaSkyIosTest.app    cd "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/build/Debug-iphonesimulator/privaSkyIosTest.app"36"4A6C8BB0-9338-4276-8073-221A550A4600-
+
