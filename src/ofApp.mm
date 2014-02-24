@@ -168,7 +168,7 @@ void ofApp::audioIn(float * input, int bufferSize, int nChannels){
 
 //--------------------------------------------------------------
 void ofApp::touchDown(ofTouchEventArgs & touch){
-    //sound.setVolume(1.0);
+    sound.setVolume(1.0);
     
     bTakeSnapshot = true;
 }
@@ -180,7 +180,7 @@ void ofApp::touchMoved(ofTouchEventArgs & touch){
 
 //--------------------------------------------------------------
 void ofApp::touchUp(ofTouchEventArgs & touch){
-    //sound.setVolume(0.0);
+    sound.setVolume(0.0);
 }
 
 //--------------------------------------------------------------
