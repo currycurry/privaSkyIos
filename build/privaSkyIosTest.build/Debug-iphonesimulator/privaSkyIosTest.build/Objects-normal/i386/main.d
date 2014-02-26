@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTestSlider/src/main.mm \
+  /Users/curry/Documents/openframeworks_releases/of_0.8.0(new)/apps/myApps/privaSkyIosTest_1/src/main.mm \
   ../../../libs/openFrameworks/ofMain.h \
   ../../../libs/openFrameworks/utils/ofConstants.h \
   ../../../libs/tess2/include/tesselator.h \

@@ -3,6 +3,7 @@
 
 #include "ofApp.h"
 
+
 //  IMPORTANT!!! if your sound doesn't work in the simulator
 //	read this post => http://www.cocos2d-iphone.org/forum/topic/4159
 //  which requires you set the input stream to 24bit!!
@@ -52,12 +53,18 @@ void ofApp::setup(){
 		}
 	}
 	
-    bTakeSnapshot = false;
+    bTakeSnapshot = true;
     bClear = false;
     
 
     cout << ofGetWidth() << endl;
     cout << ofGetHeight() << endl;
+    
+    volume = 0.0;
+    noiseShape.assign( BUFFER_SIZE, 0.0);
+    
+    
+    
    
 }
 
@@ -81,6 +88,10 @@ void ofApp::update(){
 	for( int j = 1; j < BUFFER_SIZE / 2; j++ ) {
 		freq[ index ][ j ] = magnitude[ j ];
 	}
+    
+    for ( int i = 0; i < BUFFER_SIZE; i ++ ) {
+        noiseShape[ i ] = ofRandom(0, 1) * avgMag[ int( i / 2 ) ]; //* volume;
+    }
 
     
     //snapShot calculations
@@ -93,6 +104,7 @@ void ofApp::update(){
         }
         for ( int i = 0; i < BUFFER_SIZE; i ++ ) {
             snapMag[ i ] = 0;
+            //noiseShape[ i ] = ofRandom(0, 1) * avgMag[ int( i / 2 ) ]; //* volume;
         }
         bTakeSnapshot = false;
     }
@@ -104,6 +116,7 @@ void ofApp::update(){
         bClear = false;
     }
    
+    
 
 
 }
@@ -113,32 +126,42 @@ void ofApp::draw(){
     
     
     //draw the FFT
-    //ofPushMatrix();
-    //ofTranslate( 40, 100, 0 );
+    ofPushMatrix();
+    ofTranslate( 64, 154, 0 );
     //ofDrawBitmapString("Input", 0, 18 );
 	for ( int i = 1; i < (int)(BUFFER_SIZE / 2); i++ ){
-		ofLine( 64 + (i * 7), 200, 64 + (i * 7), 200 - magnitude[ i ] * 15.0f + 1 );
+		ofLine((i * 7), 0,(i * 7), -magnitude[ i ] * 15.0f + 1 );
 	}
-    //ofPopMatrix();
+    ofPopMatrix();
     
     //draw the FFT snapshot
-    //ofPushMatrix();
-    //ofTranslate( 40, 200, 0 );
+    ofPushMatrix();
+    ofTranslate( 64, 308, 0 );
     //ofDrawBitmapString("Input Snapshot", 0, 18 );
     for ( int i = 1; i < (int)(BUFFER_SIZE / 2); i++ ){
-		ofLine( 64 + (i * 7), 400, 64 + (i * 7), 400 - avgMag[ i ] * 15.0f + 1 );
+		ofLine((i * 7), 0, (i * 7), -avgMag[ i ] * 15.0f + 1 );
 	}
-    //ofPopMatrix();
+    ofPopMatrix();
     
-   /* drawCounter++;
-    
-    ofPushStyle();
-	ofSetColor(0);
-    ofDrawBitmapString("touch to play sound.", 20, ofGetHeight() - 60);
-	ofDrawBitmapString("buffers received: " + ofToString(bufferCounter), 20, ofGetHeight() - 40);
-    ofDrawBitmapString("draw routines called: " + ofToString(drawCounter), 20, ofGetHeight() - 20);
+    //draw the noise signal
+    ofNoFill();
+	ofPushStyle();
+    ofPushMatrix();
+    ofTranslate( 64, 462, 0);
+    //ofDrawBitmapString( "Noise", 0, 118);
+    ofSetLineWidth(2);
+    ofBeginShape();
+    for (unsigned int i = 0; i < noiseShape.size(); i++){
+        float x =  ofMap( i, 0, noiseShape.size(), 0, 900, true);
+        ofVertex( x, -noiseShape[i] * 25.0f );
+    }
+    ofEndShape(false);
+    ofPopMatrix();
     ofPopStyle();
-    */
+    
+    drawCounter++;
+    
+    
 }
 
 //--------------------------------------------------------------
@@ -186,7 +209,7 @@ void ofApp::touchUp(ofTouchEventArgs & touch){
 //--------------------------------------------------------------
 void ofApp::touchDoubleTap(ofTouchEventArgs & touch){
     
-
+    
 }
 
 //--------------------------------------------------------------

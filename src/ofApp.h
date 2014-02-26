@@ -30,6 +30,7 @@ public:
 
 	void audioIn(float * input, int bufferSize, int nChannels);
     float * audioInput;
+    vector <float> noiseShape;
 
 	int	initialBufferSize;
 	int	sampleRate;
