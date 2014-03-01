@@ -56,21 +56,46 @@ void ofApp::setup(){
     bTakeSnapshot = true;
     bClear = false;
     
-
-    cout << ofGetWidth() << endl;
-    cout << ofGetHeight() << endl;
-    
     volume = 0.0;
     noiseShape.assign( BUFFER_SIZE, 0.0);
     
+    logo.loadImage("logoWhiteSmall.png");
+    buttonPressed.loadImage("buttonPressed.png");
+    buttonUnpressed.loadImage("buttonUnpressed.png");
+    listening.loadImage("listening.png");
+    filtering.loadImage("filtering.png");
+    volumeControl.loadImage("volume.png");
+    
+    //gui stuff
+    sliderMinX = 160;
+    sliderMaxX = 865; 
+    sliderMinY = 525;
+    sliderMaxY = 535;
+    sliderX = sliderMinX;
+    sliderY = 510;
+    sliderWidth = 10;
+    sliderHeight = 40;
+    sliderDestination = 0;
+    sliderSpeed = 1.0;
     
     
+     buttonX = 690;
+     buttonY = 665;
+     buttonWidth = 204;
+     buttonHeight = 35;
+     
+    
+    bSliderTouch = false;
+    bSliderGlide = false;
+    bButtonTouch = false;
+    
+    indentX = 160;
    
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    ofBackground( 60, 102, 128 );
+    ofBackground( 0, 51, 102 );
     
     static int index = 0;
 	float avg_power = 0.0f;
@@ -117,47 +142,72 @@ void ofApp::update(){
     }
    
     
+    //slide the slider
+    /*if ( bSliderGlide ) {
+        while ( abs ( sliderX - sliderDestination ) > 0 ){
+            if ( sliderX > sliderDestination ) { sliderX += sliderSpeed; }
+            if ( sliderY < sliderDestination ) { sliderX -= sliderSpeed; }
+        }        bSliderGlide = false;
+    }*/
 
+    //slider
+    volume = ofMap( sliderX, sliderMinX, sliderMinY, 0.0, 1.0 );
+    sound.setVolume( volume );
 
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
     
+    logo.draw( 896, 42, 79, 77 );
     
     //draw the FFT
     ofPushMatrix();
-    ofTranslate( 64, 154, 0 );
+    ofTranslate( indentX, 200 );
     //ofDrawBitmapString("Input", 0, 18 );
 	for ( int i = 1; i < (int)(BUFFER_SIZE / 2); i++ ){
-		ofLine((i * 7), 0,(i * 7), -magnitude[ i ] * 15.0f + 1 );
+		ofLine((i * 5.5), 0,(i * 5.5), -magnitude[ i ] * 15.0f + 1 );
 	}
     ofPopMatrix();
     
-    //draw the FFT snapshot
-    ofPushMatrix();
-    ofTranslate( 64, 308, 0 );
-    //ofDrawBitmapString("Input Snapshot", 0, 18 );
-    for ( int i = 1; i < (int)(BUFFER_SIZE / 2); i++ ){
-		ofLine((i * 7), 0, (i * 7), -avgMag[ i ] * 15.0f + 1 );
-	}
-    ofPopMatrix();
+    listening.draw( indentX + 5, 215, 293, 15 );
     
     //draw the noise signal
     ofNoFill();
 	ofPushStyle();
     ofPushMatrix();
-    ofTranslate( 64, 462, 0);
+    ofTranslate( indentX, 375 );
     //ofDrawBitmapString( "Noise", 0, 118);
     ofSetLineWidth(2);
     ofBeginShape();
     for (unsigned int i = 0; i < noiseShape.size(); i++){
-        float x =  ofMap( i, 0, noiseShape.size(), 0, 900, true);
+        float x =  ofMap( i, 0, noiseShape.size(), 0, 704, true);
         ofVertex( x, -noiseShape[i] * 25.0f );
     }
     ofEndShape(false);
     ofPopMatrix();
     ofPopStyle();
+    
+    filtering.draw( indentX + 5, 390, 516, 14);
+    
+    //draw volume gui
+    ofPushMatrix();
+    ofTranslate( indentX, 550 );
+    ofFill();
+    ofRect( 0, -23, 704, 8 );
+    ofSetColor( 220, 220, 220 );
+    ofRect( 0, -23, sliderX - indentX, 8 );
+    ofSetColor( 255, 255, 255 );
+    ofRectRounded( sliderX - indentX, -40, sliderWidth, sliderHeight, 10 );
+    ofPopMatrix();
+    volumeControl.draw( indentX + 5, 570, 216, 15 );
+    
+    if ( bButtonTouch ) {
+        buttonPressed.draw(buttonX, buttonY, buttonWidth, buttonHeight );
+    }
+    else {
+        buttonUnpressed.draw( buttonX, buttonY, buttonWidth, buttonHeight );
+    }
     
     drawCounter++;
     
@@ -191,19 +241,71 @@ void ofApp::audioIn(float * input, int bufferSize, int nChannels){
 
 //--------------------------------------------------------------
 void ofApp::touchDown(ofTouchEventArgs & touch){
-    sound.setVolume(1.0);
+     
+    //cout << "down (touchX, touchY): (" << touch.x << ", " << touch.y << " )"<< endl;
     
-    bTakeSnapshot = true;
+    
+    if ( touch.x >= sliderX && touch.x <= sliderX + sliderWidth ) {
+        if ( touch.y >= sliderY && touch.y <= sliderY + sliderHeight ) {
+            bSliderTouch = true;
+        }
+    }
+    
+    /*else if ( touch.x >= sliderMinX && touch.x <= sliderMaxX ) {
+        if ( touch.y >= sliderMinY && touch.y <= sliderMaxY ) {
+            bSliderTouch = true;
+        }
+    }*/
+    
+    if ( touch.x >= buttonX && touch.x <= buttonX + buttonWidth ) {
+        if ( touch.y >= buttonY && touch.y <= buttonY + buttonHeight ) {
+            bButtonTouch = true;
+        }
+    }
+    
+    
+
+    //bTakeSnapshot = true;
 }
 
 //--------------------------------------------------------------
 void ofApp::touchMoved(ofTouchEventArgs & touch){
-	
+    
+    if (!bSliderTouch ) {
+        if ( touch.x >= sliderX && touch.x <= sliderX + sliderWidth ) {
+            if ( touch.y >= sliderY && touch.y <= sliderY + sliderHeight ) {
+                bSliderTouch = true;
+                //cout << "slider Touched" << endl;
+            }
+        }
+    }
+    
+    //cout << "moved (touchX, touchY): (" << touch.x << ", " << touch.y << " )"<< endl;
+    
+    if ( bSliderTouch ) {
+        sliderX = touch.x - sliderWidth / 2;
+        if ( sliderX < sliderMinX ) { sliderX = sliderMinX; }
+        if ( sliderX > sliderMaxX - sliderWidth ) { sliderX = sliderMaxX - sliderWidth; }
+    }
+    
+    if ( !bButtonTouch ) {
+        if ( touch.x >= buttonX && touch.x <= buttonX + buttonWidth ) {
+            if ( touch.y >= buttonY && touch.y <= buttonY + buttonHeight ) {
+                bButtonTouch = true;
+            }
+        }
+    }
 }
 
 //--------------------------------------------------------------
 void ofApp::touchUp(ofTouchEventArgs & touch){
-    sound.setVolume(0.0);
+    //cout << "up (touchX, touchY): (" << touch.x << ", " << touch.y << " )"<< endl;
+    
+    bSliderTouch = false;
+    bButtonTouch = false;
+    //bSliderGlide = true;
+    //sliderDestination = touch.x;
+    
 }
 
 //--------------------------------------------------------------

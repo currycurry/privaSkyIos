@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
+		</data>
 		<key>.gitkeep</key>
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
@@ -14,47 +18,47 @@
 		</data>
 		<key>Default-568h@2x~iphone.png</key>
 		<data>
-		oGiP0UlNI3tI9x3QfP5pZA7LONs=
+		8PpHrjLPOpH+P0qC6E7lCs4Zahk=
 		</data>
 		<key>Default.png</key>
 		<data>
-		cZJoVLoejb+kT6EGQReuDyMEtx4=
+		pm8l3wiEwOZ7FVGbKaSnKz94GoE=
 		</data>
 		<key>Default@2x.png</key>
 		<data>
-		hwISdh7t3ulTmkwmCsPaf2YIXFg=
+		UnUEEMBzl1aFkn9/lSRrcVyeXZ8=
 		</data>
 		<key>Default@2x~ipad.png</key>
 		<data>
-		mymJjGrKr1aFcNM7dSwpJEfZIIc=
+		tFM7ZWr0DoiQJ0yM2UAMrI1axdk=
 		</data>
 		<key>Default@2x~iphone.png</key>
 		<data>
-		hwISdh7t3ulTmkwmCsPaf2YIXFg=
+		UnUEEMBzl1aFkn9/lSRrcVyeXZ8=
 		</data>
 		<key>Default~ipad.png</key>
 		<data>
-		Na8/Jahdf5PNEH4msYO9qEo4vCY=
+		28uXz/se9CuZpItYhV6iovNbA8U=
 		</data>
 		<key>Default~iphone.png</key>
 		<data>
-		cZJoVLoejb+kT6EGQReuDyMEtx4=
+		pm8l3wiEwOZ7FVGbKaSnKz94GoE=
 		</data>
 		<key>Icon-72.png</key>
 		<data>
-		3Qlik1VffXCdhtfvP7KNdzYeHnU=
+		TWj0Ll3Zi8pUXngSHaSSJHomPvE=
 		</data>
 		<key>Icon-72@2x.png</key>
 		<data>
-		tVTCaOceuV3+2e+1hdeGt1c8K7E=
+		LMnQgl3IOYDeYlXMAsdoOqONOiE=
 		</data>
 		<key>Icon.png</key>
 		<data>
-		t5NZjBT9BCOsTEg2zQZ3KlW67xw=
+		NOn/vXHz2dKjLQWFqd5jrh3XzVw=
 		</data>
 		<key>Icon@2x.png</key>
 		<data>
-		RiE3rmDVtabjcJvK22odcVwSaYo=
+		jgOAKDmt0YIp891CyExSRdxp+cw=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -64,9 +68,37 @@
 		<data>
 		3NHq1d621zXAzv69PHjqljsiHiU=
 		</data>
+		<key>buttonPressed.png</key>
+		<data>
+		VhZgo8nqXfB5/gVxs08wtWuoBf8=
+		</data>
+		<key>buttonUnpressed.png</key>
+		<data>
+		FP0VMsA4sVVgUyMqy+MGqiL4ado=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		F9UQUxzpfI7YMs4AN6u2hSw6PX8=
+		</data>
+		<key>filtering.png</key>
+		<data>
+		fQN2wP7O9v97nJ1iauEWLvns+60=
+		</data>
+		<key>listening.png</key>
+		<data>
+		r+1/K4SkVmThb9Kn1f1dMIyd/aQ=
+		</data>
+		<key>logoGray.png</key>
+		<data>
+		nnskltpd1NPxOLOe4Mz9csuQ3vI=
+		</data>
+		<key>logoWhite.png</key>
+		<data>
+		x3jGGqLIRmA3DOjaZ6f/qUjgb+g=
+		</data>
+		<key>logoWhiteSmall.png</key>
+		<data>
+		uYXdM30vNTBxi2aab7MzKrYCmf8=
 		</data>
 		<key>sounds/beat.caf</key>
 		<data>
@@ -83,10 +115,18 @@
 		<key>sounds/tone.wav</key>
 		<data>
 		HyOXlXe9W92iUJtyA8GnANYm+Ic=
+		</data>
+		<key>volume.png</key>
+		<data>
+		tZ0o8uvBp4AlNA5kDwFWMjHMv6Y=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
+		</data>
 		<key>.gitkeep</key>
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
@@ -97,47 +137,47 @@
 		</data>
 		<key>Default-568h@2x~iphone.png</key>
 		<data>
-		oGiP0UlNI3tI9x3QfP5pZA7LONs=
+		8PpHrjLPOpH+P0qC6E7lCs4Zahk=
 		</data>
 		<key>Default.png</key>
 		<data>
-		cZJoVLoejb+kT6EGQReuDyMEtx4=
+		pm8l3wiEwOZ7FVGbKaSnKz94GoE=
 		</data>
 		<key>Default@2x.png</key>
 		<data>
-		hwISdh7t3ulTmkwmCsPaf2YIXFg=
+		UnUEEMBzl1aFkn9/lSRrcVyeXZ8=
 		</data>
 		<key>Default@2x~ipad.png</key>
 		<data>
-		mymJjGrKr1aFcNM7dSwpJEfZIIc=
+		tFM7ZWr0DoiQJ0yM2UAMrI1axdk=
 		</data>
 		<key>Default@2x~iphone.png</key>
 		<data>
-		hwISdh7t3ulTmkwmCsPaf2YIXFg=
+		UnUEEMBzl1aFkn9/lSRrcVyeXZ8=
 		</data>
 		<key>Default~ipad.png</key>
 		<data>
-		Na8/Jahdf5PNEH4msYO9qEo4vCY=
+		28uXz/se9CuZpItYhV6iovNbA8U=
 		</data>
 		<key>Default~iphone.png</key>
 		<data>
-		cZJoVLoejb+kT6EGQReuDyMEtx4=
+		pm8l3wiEwOZ7FVGbKaSnKz94GoE=
 		</data>
 		<key>Icon-72.png</key>
 		<data>
-		3Qlik1VffXCdhtfvP7KNdzYeHnU=
+		TWj0Ll3Zi8pUXngSHaSSJHomPvE=
 		</data>
 		<key>Icon-72@2x.png</key>
 		<data>
-		tVTCaOceuV3+2e+1hdeGt1c8K7E=
+		LMnQgl3IOYDeYlXMAsdoOqONOiE=
 		</data>
 		<key>Icon.png</key>
 		<data>
-		t5NZjBT9BCOsTEg2zQZ3KlW67xw=
+		NOn/vXHz2dKjLQWFqd5jrh3XzVw=
 		</data>
 		<key>Icon@2x.png</key>
 		<data>
-		RiE3rmDVtabjcJvK22odcVwSaYo=
+		jgOAKDmt0YIp891CyExSRdxp+cw=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -147,9 +187,37 @@
 		<data>
 		3NHq1d621zXAzv69PHjqljsiHiU=
 		</data>
+		<key>buttonPressed.png</key>
+		<data>
+		VhZgo8nqXfB5/gVxs08wtWuoBf8=
+		</data>
+		<key>buttonUnpressed.png</key>
+		<data>
+		FP0VMsA4sVVgUyMqy+MGqiL4ado=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		F9UQUxzpfI7YMs4AN6u2hSw6PX8=
+		</data>
+		<key>filtering.png</key>
+		<data>
+		fQN2wP7O9v97nJ1iauEWLvns+60=
+		</data>
+		<key>listening.png</key>
+		<data>
+		r+1/K4SkVmThb9Kn1f1dMIyd/aQ=
+		</data>
+		<key>logoGray.png</key>
+		<data>
+		nnskltpd1NPxOLOe4Mz9csuQ3vI=
+		</data>
+		<key>logoWhite.png</key>
+		<data>
+		x3jGGqLIRmA3DOjaZ6f/qUjgb+g=
+		</data>
+		<key>logoWhiteSmall.png</key>
+		<data>
+		uYXdM30vNTBxi2aab7MzKrYCmf8=
 		</data>
 		<key>sounds/beat.caf</key>
 		<data>
@@ -166,6 +234,10 @@
 		<key>sounds/tone.wav</key>
 		<data>
 		HyOXlXe9W92iUJtyA8GnANYm+Ic=
+		</data>
+		<key>volume.png</key>
+		<data>
+		tZ0o8uvBp4AlNA5kDwFWMjHMv6Y=
 		</data>
 	</dict>
 	<key>rules</key>

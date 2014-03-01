@@ -48,6 +48,14 @@ public:
     float avgMag[BUFFER_SIZE];
     
     float volume;
+    int sliderX, sliderY, sliderMinX, sliderMinY, sliderMaxX, sliderMaxY, sliderWidth, sliderHeight, sliderDestination;
+    int buttonX, buttonY, buttonWidth, buttonHeight;
+    int indentX;
+    float sliderSpeed;
+    bool bSliderTouch, bButtonTouch, bSliderGlide;
+    
+    ofImage logo;
+    ofImage buttonPressed, buttonUnpressed, listening, filtering, volumeControl;
     
 private:
     
