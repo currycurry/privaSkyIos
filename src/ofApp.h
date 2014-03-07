@@ -52,10 +52,17 @@ public:
     int buttonX, buttonY, buttonWidth, buttonHeight;
     int indentX;
     float sliderSpeed;
-    bool bSliderTouch, bButtonTouch, bSliderGlide;
+    bool bSliderTouch, bButtonTouch, bSliderGlide, bSecondPage;
+    
+    int secondPageTimeout;
+    
+    int startTime, currentTime, buttonTime;
     
     ofImage logo;
-    ofImage buttonPressed, buttonUnpressed, listening, filtering, volumeControl;
+    ofImage buttonPressed, buttonUnpressed, listening, filtering, volumeControl, backButtonPressed, backButtonUnpressed;
+    ofImage secondPage;
+    
+    float toneToNoiseRatio;
     
 private:
     

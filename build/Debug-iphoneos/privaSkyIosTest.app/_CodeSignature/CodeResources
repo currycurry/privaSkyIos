@@ -68,13 +68,25 @@
 		<data>
 		3NHq1d621zXAzv69PHjqljsiHiU=
 		</data>
+		<key>backButtonPressed.png</key>
+		<data>
+		KXaYur6/SsiOgLqSMYxFffZ7Lgc=
+		</data>
+		<key>backButtonUnpressed.png</key>
+		<data>
+		qiiXRosZE4/WkLxuIk6e8cSXbBY=
+		</data>
 		<key>buttonPressed.png</key>
 		<data>
-		VhZgo8nqXfB5/gVxs08wtWuoBf8=
+		zltciFl94plxX3XQT1s+tQT5vY4=
 		</data>
 		<key>buttonUnpressed.png</key>
 		<data>
-		FP0VMsA4sVVgUyMqy+MGqiL4ado=
+		WMgfL6U3cMyzu9sDtKLwSzHoXMk=
+		</data>
+		<key>copyToCome.png</key>
+		<data>
+		oMtFWi1UTvJ5nGKsL+osUhSko1Y=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -82,11 +94,11 @@
 		</data>
 		<key>filtering.png</key>
 		<data>
-		fQN2wP7O9v97nJ1iauEWLvns+60=
+		BDCb6C7RYC5LtxEBFqLHvGpNHhQ=
 		</data>
 		<key>listening.png</key>
 		<data>
-		r+1/K4SkVmThb9Kn1f1dMIyd/aQ=
+		k7+tdyZQNTtumVjV3aogyXz8zD0=
 		</data>
 		<key>logoGray.png</key>
 		<data>
@@ -99,6 +111,18 @@
 		<key>logoWhiteSmall.png</key>
 		<data>
 		uYXdM30vNTBxi2aab7MzKrYCmf8=
+		</data>
+		<key>loremipsum.png</key>
+		<data>
+		K3sTww+mGA0mOfuC7PwM4zxyp3M=
+		</data>
+		<key>secondPageText.png</key>
+		<data>
+		9+0AOECB57PsW42M1gUJ0/lojjU=
+		</data>
+		<key>sounds/.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
 		</data>
 		<key>sounds/beat.caf</key>
 		<data>
@@ -118,7 +142,7 @@
 		</data>
 		<key>volume.png</key>
 		<data>
-		tZ0o8uvBp4AlNA5kDwFWMjHMv6Y=
+		SVqW+3diLtcyFRiEBbpGlMSDAyI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -187,13 +211,25 @@
 		<data>
 		3NHq1d621zXAzv69PHjqljsiHiU=
 		</data>
+		<key>backButtonPressed.png</key>
+		<data>
+		KXaYur6/SsiOgLqSMYxFffZ7Lgc=
+		</data>
+		<key>backButtonUnpressed.png</key>
+		<data>
+		qiiXRosZE4/WkLxuIk6e8cSXbBY=
+		</data>
 		<key>buttonPressed.png</key>
 		<data>
-		VhZgo8nqXfB5/gVxs08wtWuoBf8=
+		zltciFl94plxX3XQT1s+tQT5vY4=
 		</data>
 		<key>buttonUnpressed.png</key>
 		<data>
-		FP0VMsA4sVVgUyMqy+MGqiL4ado=
+		WMgfL6U3cMyzu9sDtKLwSzHoXMk=
+		</data>
+		<key>copyToCome.png</key>
+		<data>
+		oMtFWi1UTvJ5nGKsL+osUhSko1Y=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -201,11 +237,11 @@
 		</data>
 		<key>filtering.png</key>
 		<data>
-		fQN2wP7O9v97nJ1iauEWLvns+60=
+		BDCb6C7RYC5LtxEBFqLHvGpNHhQ=
 		</data>
 		<key>listening.png</key>
 		<data>
-		r+1/K4SkVmThb9Kn1f1dMIyd/aQ=
+		k7+tdyZQNTtumVjV3aogyXz8zD0=
 		</data>
 		<key>logoGray.png</key>
 		<data>
@@ -218,6 +254,18 @@
 		<key>logoWhiteSmall.png</key>
 		<data>
 		uYXdM30vNTBxi2aab7MzKrYCmf8=
+		</data>
+		<key>loremipsum.png</key>
+		<data>
+		K3sTww+mGA0mOfuC7PwM4zxyp3M=
+		</data>
+		<key>secondPageText.png</key>
+		<data>
+		9+0AOECB57PsW42M1gUJ0/lojjU=
+		</data>
+		<key>sounds/.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
 		</data>
 		<key>sounds/beat.caf</key>
 		<data>
@@ -237,7 +285,7 @@
 		</data>
 		<key>volume.png</key>
 		<data>
-		tZ0o8uvBp4AlNA5kDwFWMjHMv6Y=
+		SVqW+3diLtcyFRiEBbpGlMSDAyI=
 		</data>
 	</dict>
 	<key>rules</key>
